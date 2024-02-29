@@ -11,6 +11,13 @@ header.header_page {
     }
 }
 
+section.logo_menu{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+}
 
 footer {
     display: flex;

@@ -13,7 +13,7 @@ html{
 }
 
 body{
-    background-color: --couleur-fond;
+    background-color: var(--couleur-fond);
 }
 
 div.interface{

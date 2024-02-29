@@ -40,7 +40,7 @@ section#trucs_pros {
     > div {
         display: flex;
 
-        > div > article {
+        > article {
             flex-grow: 1;
             flex-shrink: 1;
             width: 30%;
@@ -86,7 +86,7 @@ section#horaire {
     padding: 80px;
 
     table {
-        border: 3px solidvar(--couleur-secondaire);
+        border: 3px solid var(--couleur-secondaire);
         width: 100%;
         margin: 0 auto;
         text-align: center;
@@ -100,7 +100,7 @@ section#horaire {
     }
 
     td {
-        border: 1px solidvar(--couleur-secondaire);
+        border: 1px solid var(--couleur-secondaire);
         padding: 12px;
     }
 }
