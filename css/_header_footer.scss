@@ -1,0 +1,26 @@
+header.header_page {
+    background-position: bottom;
+    background-image: url("../img/header_background.jpg");
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    color: #ffffff;
+
+    h3 {
+        color: var(--couleur-accent);
+    }
+}
+
+
+footer {
+    display: flex;
+    padding: 80px;
+
+    section:last-child {
+        margin-left: auto;
+    }
+
+    section.nous_joindre {
+        margin-right: 18px;
+    }
+}

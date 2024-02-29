@@ -1,0 +1,106 @@
+main > section {
+    padding: 80px;
+}
+
+section#services {
+    display: flex;
+    padding: 48px;
+
+    h2 {
+        text-align: left;
+        margin-top: 36px;
+    }
+
+    section {
+        margin-right: 48px;
+    }
+}
+
+
+section#entreprise {
+    text-align: center;
+    background-color: var(--couleur-secondaire);
+    padding: 80px;
+
+    h2 {
+        margin-bottom: 48px;
+        margin-top: 0;
+    }
+}
+
+
+section#trucs_pros {
+    padding: 80px;
+
+    h3 + p {
+        margin-top: 0;
+        font-size: 12px;
+    }
+
+    > div {
+        display: flex;
+
+        > div > article {
+            flex-grow: 1;
+            flex-shrink: 1;
+            width: 30%;
+            margin: 0 10px 0 10px;
+        }
+    }
+
+    article > div {
+        overflow: hidden;
+    }
+
+    > img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+section#production_plants {
+    background-size: cover;
+    background-image: url("../img/employee_serres.jpg");
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+
+    p {
+        background-color: var(--couleur-accent);
+        width: 400px;
+        color: #ffffff;
+        padding: 24px;
+        font-size: 32px;
+    }
+}
+
+section#commentaires_clients {
+    background-image: url("../img/commentaires_clients_bg.jpg");
+    padding: 80px;
+}
+
+section#horaire {
+    padding: 80px;
+
+    table {
+        border: 3px solidvar(--couleur-secondaire);
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        border-spacing: 3px;
+    }
+
+    th {
+        background-color: var(--couleur-accent);
+        color: white;
+        padding: 12px;
+    }
+
+    td {
+        border: 1px solidvar(--couleur-secondaire);
+        padding: 12px;
+    }
+}

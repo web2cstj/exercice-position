@@ -1,0 +1,46 @@
+nav {
+    & ul {
+        list-style-type: none;
+    }
+
+    &.secondaire {
+        background-color: var(--couleur-secondaire);
+
+        a {
+            display: block;
+            padding: 12px;
+
+            &:hover {
+                background-color: var(--couleur-principale);
+            }
+        }
+
+        ul {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+    }
+
+    &.principal a {
+        display: block;
+        padding: 12px;
+    }
+
+
+
+    &.secondaire a.vert_pale,
+    &.principal a:hover {
+        background-color: var(--couleur-accent);
+        color: var(--couleur-secondaire);
+    }
+
+
+}
+
+section.logo_menu > nav.principal {
+    margin-left: auto;
+    ul {
+        display: flex;
+    }
+}
