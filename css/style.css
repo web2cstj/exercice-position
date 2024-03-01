@@ -225,3 +225,54 @@ section#horaire td {
   border: 1px solid var(--couleur-secondaire);
   padding: 12px;
 }
+
+.popup {
+  position: fixed;
+  background-color: rgba(82, 82, 82, 0.781);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.popup section.popup_content {
+  background-color: rgba(75, 89, 34, 0.753);
+  border: 2px solid var(--couleur-accent);
+  width: 500px;
+  padding: 16px;
+  text-align: center;
+  margin: 200px auto;
+  position: relative;
+}
+.popup section.popup_content a {
+  background-color: var(--couleur-accent);
+  border-radius: 5px;
+  color: var(--couleur-principale);
+  display: block;
+  margin-top: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.popup section.popup_content a:hover {
+  background-color: var(--couleur-principale);
+  color: var(--couleur-accent);
+}
+.popup section.popup_content a.fermer {
+  background-color: var(--couleur-accent);
+  display: block;
+  padding: 10px 16px;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  border-radius: 50%;
+}
+.popup section.popup_content a.fermer:hover {
+  background-color: var(--couleur-principale);
+}
+.popup section.popup_content h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  background-color: var(--couleur-principale);
+  height: 3px;
+  margin: 10px auto 0;
+}/*# sourceMappingURL=style.css.map */
